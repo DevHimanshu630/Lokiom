@@ -75,7 +75,7 @@ export default function Hero() {
       </div>
 
       <div className="hero-foot wrap">
-        <span>Private preview · Brass available now</span>
+        <span>Private preview · Moradabad brass available now</span>
         <div className="hero-controls">
           <button type="button" aria-label="Previous slide" onClick={() => go(index - 1)}>
             ←

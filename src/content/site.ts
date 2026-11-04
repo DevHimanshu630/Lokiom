@@ -1,5 +1,4 @@
 export const nav = [
-  { href: "#brass", label: "Brass" },
   { href: "#crafts", label: "Crafts" },
   { href: "#collections", label: "Collections" },
   { href: "#house", label: "The House" },
@@ -9,6 +8,16 @@ export const nav = [
 
 export const heroSlides = [
   {
+    image: "/images/hero-brass.jpg",
+    alt: "Engraved brass vases, ewers and an oil lamp arranged on a dark table",
+    position: "50% 60%",
+    eyebrow: "Moradabad brass · Available now",
+    title: "Brass, as the brass city once made it.",
+    text: "Hand-cast, hand-beaten and hand-engraved in Moradabad, the brass city. Serving bowls, water pots, lamps and kettles, finished to a standard the trade forgot.",
+    primary: { href: "#pital", label: "See the brass" },
+    secondary: { href: "#register", label: "Trade enquiries" },
+  },
+  {
     image: "/images/hero.jpg",
     alt: "A weaver bent over a handloom, working an ikat cloth",
     position: "60% 40%",
@@ -17,16 +26,6 @@ export const heroSlides = [
     text: "Lokiom brings India's finest craft traditions under one roof. Blue pottery from Khurja. Stone inlay from Agra. Brocade from Varanasi. Chikankari from Lucknow.",
     primary: { href: "#collections", label: "View the collections" },
     secondary: { href: "#crafts", label: "Explore the crafts" },
-  },
-  {
-    image: "/images/hero-brass.jpg",
-    alt: "Engraved brass vases, ewers and an oil lamp arranged on a dark table",
-    position: "50% 60%",
-    eyebrow: "Moradabad brass · Available now",
-    title: "Brass, as the brass city once made it.",
-    text: "Hand-cast, hand-beaten and hand-engraved in Moradabad, the brass city. Serving bowls, water pots, lamps and kettles, finished to a standard the trade forgot.",
-    primary: { href: "#brass", label: "Shop the brass" },
-    secondary: { href: "#register", label: "Trade enquiries" },
   },
   {
     image: "/images/hero-maati.jpg",
@@ -40,64 +39,6 @@ export const heroSlides = [
   },
 ];
 
-export const brassProducts = [
-  {
-    id: "serving-bowls",
-    name: "Hammered serving bowls",
-    form: "Set of four, graduated",
-    image: "/images/brass/hammered.jpg",
-    alt: "Stacks of hammered brass bowls and pots",
-    position: "50% 100%",
-    blurb: "Beaten by hand from a single sheet. The hammer marks are the finish.",
-    finish: "Natural, unlacquered",
-  },
-  {
-    id: "engraved-pot",
-    name: "Engraved water pot",
-    form: "Lota, 1.2 litres",
-    image: "/images/brass/engraved-pot.jpg",
-    alt: "An antique brass pot with a band of fine engraving",
-    blurb: "Cast, turned and engraved with a chased floral band in the Moradabad nakkashi tradition.",
-    finish: "Antique patina",
-  },
-  {
-    id: "kettle",
-    name: "Spouted kettle",
-    form: "Kindi, 600 millilitres",
-    image: "/images/brass/kettle.jpg",
-    alt: "A small brass pouring vessel with a long spout",
-    blurb: "A pouring vessel of the old southern form, made here in heavy-gauge brass.",
-    finish: "Polished",
-  },
-  {
-    id: "tumbler",
-    name: "Tumbler and dabara",
-    form: "Pair",
-    image: "/images/brass/tumbler.jpg",
-    alt: "A brass tumbler set inside a wide brass bowl",
-    blurb: "The filter-coffee pair, spun thick enough to hold heat and sit flat on any table.",
-    finish: "Natural, unlacquered",
-  },
-  {
-    id: "thali",
-    name: "Thali and katori",
-    form: "Plate with six bowls",
-    image: "/images/brass/bowls.jpg",
-    alt: "Brass plates, lidded bowls and small katori on a stone counter",
-    blurb: "A complete dining set, tin-lined by hand so it can be used for food every day.",
-    finish: "Kalai tin lining",
-  },
-  {
-    id: "lamp",
-    name: "Engraved vases and lamp",
-    form: "Vase, ewer and oil lamp",
-    image: "/images/brass/vases.jpg",
-    alt: "Engraved brass vases, ewers and an oil lamp on a dark table",
-    blurb: "Decorative pieces in the engraved and enamelled styles Moradabad exported for a century.",
-    finish: "Engraved, part enamelled",
-  },
-];
-
 export const crafts = [
   {
     id: "moradabad",
@@ -107,8 +48,8 @@ export const crafts = [
     alt: "An antique brass pot with a band of fine engraving",
     blurb:
       "Cast, beaten and engraved in the brass city. Functional objects of precise weight and proportion, available now.",
-    collection: "Brass",
-    href: "#brass",
+    collection: "Pital",
+    href: "#pital",
   },
   {
     id: "khurja",

@@ -36,8 +36,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="wrap footer-legal">
-        <span>© 2026 Lokiom · A house of MOLOG OPC Private Limited</span>
-        <span>Photography courtesy of Unsplash contributors</span>
+        <span>© 2026 Lokiom</span>
       </div>
     </footer>
   );

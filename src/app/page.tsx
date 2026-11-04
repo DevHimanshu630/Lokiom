@@ -2,7 +2,6 @@ import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import Intro from "@/components/Intro";
 import Crafts from "@/components/Crafts";
-import Brass from "@/components/Brass";
 import Story from "@/components/Story";
 import Collections from "@/components/Collections";
 import Beliefs from "@/components/Beliefs";
@@ -19,7 +18,6 @@ export default function Home() {
       <main>
         <Hero />
         <Intro />
-        <Brass />
         <Crafts />
         <Story />
         <Collections />
